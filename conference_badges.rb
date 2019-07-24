@@ -31,7 +31,7 @@ def printer(speakers)
   counter = 0
   speakers.each do |speaker|
     puts batch_badge_creator(speakers)[counter]
-  p uts assign_rooms(speakers)
+  p uts assign_rooms(speakers)[counter]
   end
 end
 
