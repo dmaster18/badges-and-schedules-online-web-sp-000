@@ -2,6 +2,8 @@
 SPEAKERS = ["Edsger","Ada", "Charles", "Alan", "Grace", "Linus",
 "Matz"]
 
+ROOMS = [1, 2, 3, 4, 5, 6, 7]
+
 def badge_maker(name)
   puts "Hello, my name is #{name}."
 end
@@ -14,7 +16,7 @@ def batch_badge_creator(SPEAKERS)
   array_of_badge_messages 
 end
 
-ROOMS = [1, 2, 3, 4, 5, 6, 7]
+
 
 def assign_rooms(array_of_names)
   array_of_room_assignments = []
