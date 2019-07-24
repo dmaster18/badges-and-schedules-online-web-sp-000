@@ -16,8 +16,6 @@ def batch_badge_creator(SPEAKERS)
   array_of_badge_messages 
 end
 
-
-
 def assign_rooms(array_of_names)
   array_of_room_assignments = []
   counter = 0 
