@@ -30,4 +30,5 @@ end
 
 def printer 
   batch_badge_creator(SPEAKERS)
+  
 end
