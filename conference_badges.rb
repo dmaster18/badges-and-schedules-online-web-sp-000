@@ -18,6 +18,7 @@ def assign_rooms(array_of_names)
   counter = 0 
   array_of_names.each do |name|
     room_assignment = "Hello, #{name}! You'll be assigned to room #{room[counter]}"
+      counter++
   end
   array_of_room_assignments
 end
