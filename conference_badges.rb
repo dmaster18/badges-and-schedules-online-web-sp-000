@@ -20,7 +20,7 @@ def assign_rooms(speakers)
   array_of_room_assignments = []
   counter = 0 
   speakers.each do |name|
-    room_assignment = "Hello, #{name}! You'll be assigned to room 
+    room_assignment = "Hello, #{name}! You'll be assigned to room \n
     #{ROOMS[counter]}"
     array_of_room_assignments.push(room_assignment)
     counter+=1
