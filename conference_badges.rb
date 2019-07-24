@@ -20,7 +20,7 @@ def assign_rooms(array_of_names)
   array_of_names.each do |name|
     room_assignment = "Hello, #{name}! You'll be assigned to room 
     #{room[counter]}"
-    array_of_room_assignments.push()
+    array_of_room_assignments.push(room_assignment)
     counter++
   end
   array_of_room_assignments
