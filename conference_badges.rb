@@ -16,7 +16,7 @@ def batch_badge_creator(speakers)
   array_of_badge_messages 
 end
 
-def assign_rooms(SPEAKERS)
+def assign_rooms(speakers)
   array_of_room_assignments = []
   counter = 0 
   SPEAKERS.each do |name|
