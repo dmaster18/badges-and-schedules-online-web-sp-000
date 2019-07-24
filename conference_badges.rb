@@ -29,7 +29,7 @@ end
 
 def printer(speakers)
   counter = 0
-  speakers.each do |
+  speakers.each do |speaker|
   puts batch_badge_creator(speakers)
   puts assign_rooms(speakers)
 end
