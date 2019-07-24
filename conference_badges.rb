@@ -1,4 +1,5 @@
 # Write your code here.
+array_of_names = 
 def badge_maker(name)
   puts "Hello, my name is #{name}."
 end
