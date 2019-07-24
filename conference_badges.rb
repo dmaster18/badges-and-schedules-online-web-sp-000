@@ -2,7 +2,7 @@
 array_of_names = ["Edsger","Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def badge_maker(array_of_names)
-  name = 
+  
   puts "Hello, my name is #{name}."
 end
 
