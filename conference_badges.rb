@@ -15,7 +15,7 @@ end
 
 rooms = [1, 2, 3, 4, 5, 6, 7]
 def assign_rooms(array_of_names)
-  array_of_names.each 
+  array_of_names.each do |name
   array_of_room_assignments
 end
 
