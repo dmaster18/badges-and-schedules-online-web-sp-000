@@ -35,3 +35,5 @@ end
 
 batch_badge_creator(SPEAKERS)
 assign_rooms(SPEAKERS)
+printer
+
