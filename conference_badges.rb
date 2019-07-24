@@ -1,7 +1,7 @@
 # Write your code here.
 array_of_names = ["Edsger","Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
-def badge_maker(name)
+def badge_maker(array_of_names)
   puts "Hello, my name is #{name}."
 end
 
